@@ -31,8 +31,8 @@
             <div class="col-5 vglasses__right p-0">
                 <div class="vglasses__card">
                     <div class="mb-2 text-right mt-2 mr-2">
-                        <button class="btn btn-warning" onclick="removeGlasses(false)">Before</button>
-                        <button class="btn btn-warning" onclick="removeGlasses(true)">After</button>
+                        <button class="btn btn-warning" id="removeGlasses">Before</button>
+                        <button class="btn btn-warning" id="addGlasses">After</button>
                     </div>
                     <div class="vglasses__model" id="avatar"></div>
                     <div id="glassesInfo" class="vglasses__info">
@@ -55,9 +55,9 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
-        <!-- MAIN JS -->       
-        <script type="module" src="./js/main.js"></script>
-  
+    <!-- MAIN JS -->
+    <script type="module" src="./js/main.js"></script>
+
 </body>
 
 </html>
